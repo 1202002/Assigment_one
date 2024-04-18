@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_color"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/welcome_message"
+        android:layout_width="208dp"
+        android:layout_height="130dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="227dp"
+        android:layout_marginTop="102dp"
+        android:layout_marginEnd="-24dp"
+        android:layout_marginBottom="30dp"
+        android:text="!!?"
+        android:textColor="@color/yellow_50"
+        android:textSize="90sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/welcome_message3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="30dp"
+        android:text="Quiz"
+        android:textColor="@color/second_color"
+        android:textSize="75sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/welcome_message2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="169dp"
+        android:layout_marginTop="130dp"
+        android:layout_marginEnd="170dp"
+        android:text="App"
+        android:textColor="@color/second_color"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/select_mode_message"
+        android:layout_width="381dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/multiple_choice_button"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="54dp"
+        android:layout_marginTop="234dp"
+        android:layout_marginEnd="-25dp"
+        android:layout_marginBottom="30dp"
+        android:text="Please select a mode to start the quiz:"
+        android:textColor="@color/second_color"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/multiple_choice_button"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/true_false_button"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="94dp"
+        android:layout_marginBottom="17dp"
+        android:background="@color/teal_700"
+        android:paddingStart="40dp"
+        android:paddingEnd="40dp"
+        android:text="Multiple Choice"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/true_false_button"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="94dp"
+        android:layout_marginBottom="237dp"
+        android:background="@color/purple_700"
+        android:paddingStart="50dp"
+        android:paddingEnd="50dp"
+        android:text="True/False"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+</RelativeLayout>

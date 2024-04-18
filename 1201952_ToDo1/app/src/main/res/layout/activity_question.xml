@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_color">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="282dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="-3dp"
+        android:layout_marginEnd="18dp"
+        android:text="!!?"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/yellow_50"
+        android:textSize="70sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/mode_text_view"
+        android:layout_width="350dp"
+        android:layout_height="49dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="28dp"
+        android:text="Multiple Choice Mode"
+        android:textAlignment="center"
+        android:textColor="@color/second_color"
+        android:textSize="34sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/question_text_view"
+        android:layout_width="374dp"
+        android:layout_height="66dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="166dp"
+        android:layout_marginEnd="20dp"
+        android:background="@color/yellow_50"
+        android:text="Q1: In this lab, we agreed to use a virtual device with an API level equals to:"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/second_color"
+        android:textSize="20sp"
+        android:textStyle="bold|italic" />
+
+
+    <RadioGroup
+        android:id="@+id/options_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="-3dp"
+        android:layout_marginTop="265dp"
+        android:layout_marginEnd="3dp"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/option1"
+            android:background="@color/yellow_50"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50sp"
+            android:layout_marginBottom="15sp"
+            android:text="API 26"
+            android:textColor="@color/second_color"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/option2"
+            android:background="@color/yellow_50"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50sp"
+            android:layout_marginBottom="15sp"
+            android:textColor="@color/second_color"
+            android:text="API 26"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/option3"
+            android:background="@color/yellow_50"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50sp"
+            android:layout_marginBottom="15sp"
+            android:textColor="@color/second_color"
+            android:text="API 26"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/finish_button"
+        android:layout_width="162dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="225dp"
+        android:layout_marginBottom="105dp"
+        android:background="@color/teal_700"
+        android:paddingStart="40dp"
+        android:paddingEnd="40dp"
+        android:text="Finish"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/next_button"
+        android:layout_width="162dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="210dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="105dp"
+        android:background="@color/teal_700"
+        android:paddingStart="40dp"
+        android:paddingEnd="40dp"
+        android:text="Next"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+</RelativeLayout>
